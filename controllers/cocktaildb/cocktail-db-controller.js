@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const API_LINK = process.env.API_LINK || "www.thecocktaildb.com/api/json/v1/1/";
+const API_LINK = process.env.API_LINK || "https://www.thecocktaildb.com/api/json/v1/1/";
 
 const findCocktailById = (req, res) => {
   res.send("hi");
