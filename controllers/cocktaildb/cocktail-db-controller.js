@@ -14,7 +14,7 @@ const findRandomCocktail = (req, res) => {
 };
 
 const findAllCocktail = (req, res) => {
-  res.send("hello world find all meal");
+  res.send("hello world find all cocktails");
 };
 
 const CocktailDBController = (app) => {

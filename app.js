@@ -1,5 +1,5 @@
 import express from "express";
-import CocktailDBController from "./controllers/cocktaildb/cocktail-d-b-controller.js";
+import CocktailDBController from "./controllers/cocktaildb/cocktail-db-controller.js";
 import UsersController from "./controllers/users/users-controller.js";
 import cors from "cors";
 import mongoose from "mongoose";
